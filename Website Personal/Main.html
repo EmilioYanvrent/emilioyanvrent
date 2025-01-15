@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Emilio Yanvrent</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <header class="header">
+        <div class="logo"> 
+            <img src="/Images/logo.png">
+        </div>
+        <a href="#main-content" class="skip-link">Skip to main content</a>
+
+        <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false" aria-controls="navbar">
+            <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#c9c9c9"><path d="M165.13-254.62q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.86q7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.87q-7.22 7.12-17.9 7.12H165.13Zm0-200.25q-10.68 0-17.9-7.27-7.23-7.26-7.23-17.99 0-10.74 7.23-17.87 7.22-7.13 17.9-7.13h629.74q10.68 0 17.9 7.27 7.23 7.26 7.23 17.99 0 10.74-7.23 17.87-7.22 7.13-17.9 7.13H165.13Zm0-200.26q-10.68 0-17.9-7.26-7.23-7.26-7.23-18t7.23-17.87q7.22-7.12 17.9-7.12h629.74q10.68 0 17.9 7.26 7.23 7.26 7.23 18t-7.23 17.86q-7.22 7.13-17.9 7.13H165.13Z"/></svg>
+        </button>
+
+        <nav id="navbar">
+            <ul>
+            <li>
+                <button id="close-sidebar-button" onclick="closeSidebar()" aria-label="close sidebar">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#c9c9c9"><path d="m480-444.62-209.69 209.7q-7.23 7.23-17.5 7.42-10.27.19-17.89-7.42-7.61-7.62-7.61-17.7 0-10.07 7.61-17.69L444.62-480l-209.7-209.69q-7.23-7.23-7.42-17.5-.19-10.27 7.42-17.89 7.62-7.61 17.7-7.61 10.07 0 17.69 7.61L480-515.38l209.69-209.7q7.23-7.23 17.5-7.42 10.27-.19 17.89 7.42 7.61 7.62 7.61 17.7 0 10.07-7.61 17.69L515.38-480l209.7 209.69q7.23 7.23 7.42 17.5.19 10.27-7.42 17.89-7.62 7.61-17.7 7.61-10.07 0-17.69-7.61L480-444.62Z"/></svg>
+                </button>
+            </li>
+            <li class="home-li"><a href="#home">Home</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#studies">Studies</a></li>
+            <li><a href="#project">Projects</a></li>
+            </ul>
+        </nav>
+        <div id="overlay" onclick="closeSidebar()" aria-hidden="true"></div>
+
+    </header>
+
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Hi</h3>
+            <h1>I'm <span> Emilio Yanvrent <br></span> a Data Scientist, Business Intelligence</h1>
+    
+            <p>I am a 5th semester student of Universitas Multimedia Nusantara taking Information System for major, 
+                focusing on Big Data. I aim to become a Data Scientist, 
+                using my skills in data analysis, machine learning, and problem-solving. 
+                I work well in changing situations and adapt quickly to overcome challenges.
+            </p>
+            <div class="social-home">
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="#"><i class='bx bxl-github' ></i></a>
+            </div>
+            <div class="btn-box">
+                <button class="btn-1" onclick="downloadFile()">Download CV</button>
+            </div>
+        </div>
+        <div class="profile-image">
+            <img src="./Images/Profile.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="education" class="education-container">
+        <h1>My <span>Educations</span></h1>
+        <div class="education-content">
+          <div class="card">
+            <span><i class="ri-money-dollar-box-line"></i></span>
+            <h4>Stella Maris, Gading Serpong</h4>
+            <p>International Baccalaureate (IB)
+            <p>International General Certificate of Secondary Education(IGCSE)</p>
+            <p>---</p>
+            <p>2019 - 2022</p>
+          </div>
+          <div class="card">
+            <span><i class="ri-bug-line"></i></span>
+            <h4>Universitas Multimedia Nusantara</h4>
+            <p>Information System | Big Data</p>
+            <p>---</p>
+            <p>2022 - present</p>
+          </div>
+        </div>
+      </section>
+
+    <section id="about" class="about">
+        <div class="about-image">
+            <img src="./Images/About Me.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading"> About <span> Me</span></h2>
+            <h3> Data Scientist <br><span>Business Intelligence</span></h3>
+            <p>I'm an undergraduate student who is enthusiast in Data Scientist and Business Intelligence.<br>
+            Currently, Im persuing my undergraduate studies at Universitas Multimedia Nusantara, doing Information System as the major, 
+            in my studies I joined some research with the some fellow lecturers to help MSEs and Trash Bank. Which helps me develop team work and working under pressure for my future careers.</p>
+                <a href="#" class="btn-2">Experience</a>
+        </div>
+    </section>
+
+    <section id="studies" class="education-container">
+        <h1>Studies <span>Projects</span></h1>
+        <div class="education-content">
+          <div class="card">
+            <span><i class="ri-money-dollar-box-line"></i></span>
+            <h4>Klasifikasi Permasalahan Kesehatan mental Menggunakan Hybrid Support Vector Machine dan Decission Tree Mahasiswa Tangerang</h4>
+            <p>Here is my proposal for my thesis paper, here i tried making a hybrid studies to classify Mental health in Tangerang. 
+            In order to renew the research I included new algoritm and uses primary data to gather the data.</p>
+            <p>---</p>
+            <p>2019 - 2022</p>
+          </div>
+          <div class="card">
+            <span><i class="ri-bug-line"></i></span>
+            <h4>Understanding Factors that affect students’ Mental Health: Machine learning, method classification</h4>
+            <p>Here is my systematic literature review, here i tried comparing previous research studies to classify Mental health in Tangerang. 
+            Where i scored 90 as the final score from the lecturer and are used as an example for other students for making systematic literature review</p>
+            <p>---</p>
+            <p>2022 - present</p>
+          </div>
+          <div class="card">
+            <span><i class="ri-bug-line"></i></span>
+            <h4>Analisis Penyakit Jantung Dengan Membandingkan Algoritma K-Means, GMM dan K-Medoids</h4>
+            <p>In this studies project I took role as the group leader. 
+            Which in this project i took role in making the coding the algoritm and making the moddeling for this analysis.</p>
+            <p>---</p>
+            <p>2022 - present</p>
+          </div>
+          <div class="card">
+            <span><i class="ri-bug-line"></i></span>
+            <h4>Classification of Menstrual Bleeding Detection Based on Menstrual Period and Frequency of 
+            Bleeding During One Menstrual Period Using Instanced-Based Learning Method with KNN</h4>
+            <p>In this studies project I took role as the group leader. 
+            Which in this project i took role in making the coding the algoritm and making the moddeling for this analysis.</p>
+            <p>---</p>
+            <p>2022 - present</p>
+          </div>
+          <div class="card">
+            <span><i class="ri-bug-line"></i></span>
+            <h4>Analisis Penjualan Pada Perusahaan Outlet Olahraga Bernama Sportizer Menggunakan DCOVA&I</h4>
+            <p>Here is some example of using SAS to analyse sales on a sport outlet. 
+            The data was made using AI and was then analysed to draw a conclusion that the sales happened in which country is the best and which age.</p>
+            <p>---</p>
+            <p>2022 - present</p>
+          </div>
+          <div class="card">
+            <span><i class="ri-bug-line"></i></span>
+            <h4>Analisis Penjualan Pada Perusahaan Bank Bernama Bank Rakyat Menggunakan Power BI</h4>
+            <p>Here is an example of me implementing Power BI to analyse the sales happened on a bank. 
+            The data uses are created by AI and then it was analysed based on the country and compared the sales happening.</p>
+            <p>---</p>
+            <p>2022 - present</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="project" class="research-container">
+        <h1>Research with <span>Lecturers</span></h1>
+        <div class="research-content">
+          <div class="card">
+            <span><i class="ri-money-dollar-box-line"></i></span>
+            <h4>PKM UMKM Kuliner Berbasis Teknologi Informasi dan website E-Commerce pada desa legok, Tangerang, Banten</h4>
+            <p>---</p>
+            <p>In this research, Lecturer team recruit students to help with their research, we helped a small business at Legok, 
+            Tangerang to improve their sales by making them website for sales. In this research my role is to create the front end and back end of the website. 
+            Where it consist of admin and user page, so then the sales will all be kept in the server. This research we used React.js</p>
+            <p>---</p>
+            <p>2019 - 2022</p>
+          </div>
+          <div class="card">
+            <span><i class="ri-bug-line"></i></span>
+            <h4>Sosialisasi dan Pendampingan Sistem Transaksi Keuangan Pada Bank Sampah Puri Pamulang 25</h4>
+            <p>---</p>
+            <p>In this research, Lecturer team recruit students to help with their research, 
+                we helped a waste bank in Pamulang to improve the data input and organise the data. 
+                In this research my role is to design the UI/UX of the application and website. This research uses React.js as the base for web making.</p>
+            <p>---</p>
+            <p>2022 - present</p>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="column">
+            <p>
+                Emilio Yanvrent
+                <p>(+62) 895325191119</p>
+                <p>emiliyanvrent@gmail.com</p>
+            </p>
+        </div>
+        <div class="column">
+            <h4>Company</h4>
+            <a href="#">Business</a>
+            <a href="#">Partnership</a>
+            <a href="#">Network</a>
+        </div>
+        <div class="column">
+            <h4>About Me</h4>
+            <a href="#education">Education</a>
+            <a href="#about">About</a>
+            <a href="#studies">Studies</a>
+            <a href="#project">Projects</a>
+        </div>
+        <div class="column">
+            <h4>Contact</h4>
+            <a href="#">Contact Us</a>
+            <a href="#">Privicy Policy</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+
+        <div class="copyright">
+          Copyright © 2025 by Emilio Yanvrent. All Rights Reserved.
+      </div>
+    </footer>
+  </body>
+</html
