@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/emilioyanvrent/static/css/main.8e961c0e.css",
+    "main.js": "/emilioyanvrent/static/js/main.d624e99a.js",
+    "index.html": "/emilioyanvrent/index.html",
+    "main.8e961c0e.css.map": "/emilioyanvrent/static/css/main.8e961c0e.css.map",
+    "main.d624e99a.js.map": "/emilioyanvrent/static/js/main.d624e99a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e961c0e.css",
+    "static/js/main.d624e99a.js"
+  ]
+}
