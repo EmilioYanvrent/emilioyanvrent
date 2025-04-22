@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/emilioyanvrent/static/css/main.34f97cf3.css",
-    "main.js": "/emilioyanvrent/static/js/main.030e6e16.js",
+    "main.css": "/emilioyanvrent/static/css/main.b59a7a32.css",
+    "main.js": "/emilioyanvrent/static/js/main.01211ec0.js",
     "index.html": "/emilioyanvrent/index.html",
-    "main.34f97cf3.css.map": "/emilioyanvrent/static/css/main.34f97cf3.css.map",
-    "main.030e6e16.js.map": "/emilioyanvrent/static/js/main.030e6e16.js.map"
+    "main.b59a7a32.css.map": "/emilioyanvrent/static/css/main.b59a7a32.css.map",
+    "main.01211ec0.js.map": "/emilioyanvrent/static/js/main.01211ec0.js.map"
   },
   "entrypoints": [
-    "static/css/main.34f97cf3.css",
-    "static/js/main.030e6e16.js"
+    "static/css/main.b59a7a32.css",
+    "static/js/main.01211ec0.js"
   ]
 }
