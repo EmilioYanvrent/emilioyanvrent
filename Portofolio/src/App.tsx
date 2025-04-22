@@ -30,7 +30,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/emilioyanvrent">
       <div className={`flex h-screen ${isDarkMode ? 'dark' : ''}`}>
         {/* Sidebar */}
         <Sidebar 
