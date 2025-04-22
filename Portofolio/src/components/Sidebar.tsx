@@ -23,7 +23,8 @@ interface SidebarProps {
 
 const Sidebar: React.FC<SidebarProps> = ({ isDarkMode, toggleDarkMode, isSidebarOpen, toggleSidebar }) => {
   const location = useLocation();
-  const profileImage = "/images/Pas Foto Emilio.jpg"; // Updated path to profile image
+  const profileImage = {process.env.PUBLIC_URL + "/images/Pas Foto Emilio.jpg"}
+                        alt="Emilio Yanvrent" ; // Updated path to profile image
 
   const navItems = [
     { name: 'Home', path: '/', icon: <HomeIcon className="h-5 w-5" /> },
